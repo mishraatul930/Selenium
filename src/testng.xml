@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Session Automation Suite">
+
+<test name="Different testng concepts">
+//for parallel execution
+		<classes>
+		<class name="com.test.ExceptionTimeoutTest" />
+		<class name="com.test.GoogleTest"/>
+		<class name="com.test.InvocationCountTest"/>
+		<class name="com.test.TestNgBasics"/>
+		<class name="com.test.TestNgConcepts"/>
+		</classes>
+</test>
+
+</suite>
